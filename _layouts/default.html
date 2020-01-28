@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <base href="/">
+  <title>Nick Lee</title>
+  <!-- MDBootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <!-- Dev Icons -->
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- Local Stylesheets -->
+  <link rel='stylesheet' href='assets/css/styles.css' />
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <a class="navbar-brand" href="#">NLEE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="effect-underline nav-link" href="#home">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="effect-underline nav-link" href="#about">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="effect-underline nav-link" href="#portfolio">WORK</a>
+        </li>
+        <li class="nav-item">
+          <a class="effect-underline nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class='container-fluid'>
+
+    <!-- HOME -->
+    <div id="home" class="home">
+      <img src="assets/images/mirror-overlay.png" class="img-fluid" />
+      <h1 class='animate-reveal animate home-text'>NICK LEE</h1>
+    </div>
+    <!-- <p><a h
+      ref="#" class="underlined underlined--thin">I'm a very long text and it was a pain in the ass to animate an underline effect - but jeez it's such a simple snippet at the end.</a></p> -->
+
+    <!-- ABOUT -->
+    <div id="about" class="row about">
+      <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+        <h1 class="wow slideInLeft "><a class="underlined underlined--thick">ABOUT</a></h1><br />
+        <p>
+          Currently seeking opportunities.<br /><br />
+          Developer looking to get additional experience.<br /><br />
+          Born and raised in Victoria, BC. Passionate about the arts
+          and anything remotely creative. Lived in Vancouver for four years, but decided to shake things in 2018
+          by moving to Leipzig, Germany. While living in Leipzig I worked as front end engineer for a local
+          startup.<br /><br />
+          When I am not coding, I'm either: travelling, drawing, <a href="https://500px.com/orientalshrug">taking
+            pictures</a>,
+          reading, playing (a lot of) video games, watching movies, or attending concerts.
+        </p>
+      </div>
+      <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="skills">
+          <h4>LANGUAGES</h4><br />
+          <i title="JavaScript" class="wow fadeInUp icon devicon-javascript-plain"></i>
+          <i title="TypeScript" class="wow fadeInUp icon devicon-typescript-plain"></i>
+          <i title="Ruby" class="wow fadeInUp icon devicon-ruby-plain"></i>
+          <i title="HTML" class="wow fadeInUp icon devicon-html5-plain-wordmark"></i>
+          <i title="CSS" class="wow fadeInUp icon devicon-css3-plain-wordmark"></i>
+          <i title="SASS" class="wow fadeInUp icon devicon-sass-original"></i>
+        </div>
+        <div class="skills">
+          <h4>FRAMEWORKS . LIBRARIES . ENVIRONMENTS</h4><br />
+          <i title="jQuery" class="wow fadeInUp icon devicon-jquery-plain"></i>
+          <i title="Node.js" class="wow fadeInUp icon devicon-nodejs-plain"></i>
+          <i title="React" class="wow fadeInUp icon devicon-react-original"></i>
+          <i title="Rails" class="wow fadeInUp icon devicon-rails-plain"></i>
+          <i title="Bootstrap" class="wow fadeInUp icon devicon-bootstrap-plain"></i>
+        </div>
+        <div class="skills">
+          <h4>SYSTEMS . CMS . DATABASES . ETC</h4><br />
+          <i title="PostgreSQL" class="wow fadeInUp icon devicon-postgresql-plain"></i>
+          <i title="MongoDB" class="wow fadeInUp icon devicon-mongodb-plain"></i>
+          <i title="Git" class="wow fadeInUp icon devicon-git-plain"></i>
+          <i title="GitHub" class="wow fadeInUp icon devicon-github-plain"></i>
+          <i title="Linux" class="wow fadeInUp icon devicon-linux-plain"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div id="portfolio" class="portfolio">
+      <h1 class="wow slideInLeft">WORK</h1><br />
+      <div class="row text-center">
+        <div onclick="window.location='http://moodyapplication.com/'"
+          class="view overlay wow fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+          <img class="img-fluid" src="assets/images/vizzlo.png" />
+          <div class="mask flex-center rgba-black-strong">
+            <div>
+              <h4 class="white-text">VIZZLO</h4>
+              <p class="white-text">An app that utilizes Amazon Rekognition to suggest custom playlists based on
+                emotions or objects in the environment</p>
+            </div>
+          </div>
+        </div>
+        <div onclick="window.location='http://moodyapplication.com/'"
+          class="view overlay wow fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+          <img class="img-fluid" src="assets/images/moody.png" />
+          <div class="mask flex-center rgba-black-strong">
+            <div>
+              <h4 class="white-text">MOODY</h4>
+              <p class="white-text">An app that utilizes Amazon Rekognition to suggest custom playlists based on
+                emotions or objects in the environment</p>
+            </div>
+          </div>
+        </div>
+        <div onclick="window.location='https://github.com/nickoless/jungle-rails'"
+          class="view overlay wow fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+          <img class="img-fluid" src="assets/images/jungle.png" />
+          <div class="mask flex-center rgba-black-strong">
+            <div>
+              <h4 class="white-text">JUNGLE</h4>
+              <p class="white-text">A fully functional e-commerce application with user login and shopping cart /
+                checkout</p>
+            </div>
+          </div>
+        </div>
+        <div onclick="window.location='https://github.com/nickoless/chatty'"
+          class="view wow overlay fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+          <img class="img-fluid" src="assets/images/green.png" />
+          <h4 class="view-text">CHATTY</h4>
+          <div class="mask flex-center rgba-black-strong">
+            <div>
+              <h4 class="white-text">CHATTY</h4>
+              <p class="white-text">Real-time chat app</p>
+            </div>
+          </div>
+        </div>
+        <div onclick="window.location='https://github.com/nickoless/inDecision'"
+          class="view overlay wow fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+          <img class="img-fluid" src="assets/images/blue.png" />
+          <h4 class="view-text">INDECISION</h4>
+          <div class="mask flex-center rgba-black-strong">
+            <div>
+              <h4 class="white-text">INDECISION</h4>
+              <p class="white-text">Voting app to aid people in making a decision</p>
+            </div>
+          </div>
+        </div>
+        <div onclick="window.location='https://github.com/nickoless/quote-generator'"
+          class="view overlay wow fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+          <img class="img-fluid" src="assets/images/red.png" />
+          <h4 class="view-text">QUOTE ME</h4>
+          <div class="mask flex-center rgba-black-strong">
+            <div>
+              <h4 class="white-text">QUOTE ME</h4>
+              <p class="white-text">Simple app that generates Simpsons quotes</p>
+            </div>
+          </div>
+        </div>
+        <div onclick="window.location='https://github.com/nickoless/tweeter'"
+          class="view overlay wow fadeInUp col col-lg-4 col-md-6 col-sm-6 col-12">
+          <img class="img-fluid" src="assets/images/purple.png" />
+          <h4 class="view-text">TWEETER</h4>
+          <div class="mask flex-center rgba-black-strong">
+            <div>
+              <h4 class="white-text">TWEETER</h4>
+              <p class="white-text">A Twitter clone that allows users to post to a feed</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- CONTACT -->
+    <div id="contact" class="contact">
+      <h3 class="text-center">CONTACT</h3>
+      <div class='text-center'>
+        <a class="effect-underline social" href="https://github.com/nickoless">GITHUB</a>
+        <a class="effect-underline social" href="https://www.linkedin.com/in/nickoless/">LINKEDIN</a>
+        <a class="effect-underline social" href="mailto:nickoless.lee@gmail.com">EMAIL</a>
+        <a class="effect-underline social" href="https://www.instagram.com/orientalshrug">INSTAGRAM</a>
+        <a class="effect-underline social" href="https://500px.com/orientalshrug">500PX</a>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MD Bootstrap JS -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+  <!-- Local Scripts -->
+  <script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+
+</html>
