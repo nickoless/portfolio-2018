@@ -140,6 +140,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    &:hover {
+      display: none;
+    }
   }
 }
 
@@ -210,6 +213,7 @@ body {
   cursor: default;
 }
 
+
 // FOOTER
 
 .contact {
@@ -238,4 +242,9 @@ body {
   .about {
     height: 100vh;
   }
+}
+
+
+.rgba-black-strong {
+  opacity: 1;
 }
